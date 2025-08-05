@@ -78,7 +78,7 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "gmailTheAwesomeGuy47",
+              name: "gmail2",
               url: "https://mail.google.com/u/1",
               icon: "brand-gmail",
               icon_color: palette.blue,
