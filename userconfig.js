@@ -27,7 +27,7 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      u: ["https://unduck.link?q=%s", "Unduck"],
+      u: ["https://unduck.link?q", "Unduck"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
@@ -141,12 +141,6 @@ const default_configuration = {
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.green,
-            },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
             },
             {
               name: "stackoverflow",
