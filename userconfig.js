@@ -54,7 +54,7 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "t3.chat"
+              name: "t3.chat",
               url: "https://t3.chat",
               icon: brand-line
               icon_color: palette.pink;
