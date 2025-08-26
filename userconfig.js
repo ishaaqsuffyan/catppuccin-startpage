@@ -17,14 +17,6 @@ const default_configuration = {
     format: "k:i p",
     icon_color: palette.maroon,
   },
-  additionalClocks: [
-    {
-      label: "UK",
-      timezone: "Europe/London",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
-  ],
   search: {
     engines: {
       u: ["https://unduck.link?q", "Unduck"],
@@ -43,7 +35,7 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "li fe",
+      name: "l i fe",
       background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
@@ -56,24 +48,24 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-            {
               name: "youtube music",
               url: "https://music.youtube.com",
               icon: "music",
               icon_color: palette.red,
-            }
+            },
+            {
+              name: "t3.chat"
+              url: "https://t3.chat",
+              icon: brand-line
+              icon_color: palette.pink;
+            },
           ],
         },
         {
           name: "workspace",
           links: [
             {
-              name: "gmailPersonal",
+              name: "gmail1",
               url: "https://mail.google.com/u/0",
               icon: "brand-gmail",
               icon_color: palette.green,
@@ -85,7 +77,7 @@ const default_configuration = {
               icon_color: palette.blue,
             },
             {
-              name: "calendar",
+              name: "calender",
               url: "https://calendar.google.com",
               icon: "calendar-filled",
               icon_color: palette.peach,
@@ -188,6 +180,12 @@ const default_configuration = {
               icon: "road",
               icon_color:  palette.yellow,
             }
+            {
+              name: "musicForProgramming();",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
           ],
         },
       ],
@@ -238,12 +236,6 @@ const default_configuration = {
               url: "https://anilist.co/home",
               icon: "brand-funimation",
               icon_color: palette.green,
-            },
-            {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.peach,
             },
             {
               name: "twitch",
