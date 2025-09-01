@@ -2,8 +2,8 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = latte;
-const preferredDarkTheme = macchiato;
+const preferredLightTheme = "latte";
+const preferredDarkTheme = "macchiato";
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -26,7 +26,7 @@ const default_configuration = {
     default: "u",
   },
   keybindings: {
-    "s": "search-bar",
+    s: "search-bar",
   },
   disabled: [],
   localIcons: true,
@@ -57,7 +57,7 @@ const default_configuration = {
               name: "t3.chat",
               url: "https://t3.chat",
               icon: "brand-line",
-              icon_color: palette.pink;
+              icon_color: palette.pink, // <-- fixed semicolon to comma
             },
           ],
         },
@@ -178,8 +178,8 @@ const default_configuration = {
               name: "roadmap.sh",
               url: "https://roadmap.sh",
               icon: "road",
-              icon_color:  palette.yellow,
-            }
+              icon_color: palette.yellow,
+            }, // <-- added missing comma
             {
               name: "musicForProgramming();",
               url: "https://musicforprogramming.net",
@@ -207,8 +207,8 @@ const default_configuration = {
               name: "x",
               url: "https://x.com",
               icon: "brand-x",
-              icon_color: palette.black
-            }
+              icon_color: palette.black, // <-- added missing comma
+            },
           ],
         },
         {
